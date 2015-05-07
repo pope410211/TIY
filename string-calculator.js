@@ -22,7 +22,7 @@ function toEnglish(word){
     if ( word === "six" ) {
       return 6;
     }
-    if (word === "seven" ) {
+    if ( word === "seven" ) {
       return 7;
     }
     if ( word === "eight" ) {
@@ -43,3 +43,16 @@ expect(toEnglish("six")).to.equal(6);
 expect(toEnglish("seven")).to.equal(7);
 expect(toEnglish("eight")).to.equal(8);
 expect(toEnglish("nine")).to.equal(9);
+
+function plus( A, B) {
+  if ( A, B === "zero", "zero") {
+      return 0;
+  }
+  if (A, B === "zero", "one") {
+      return 1;
+  }
+}
+
+expect(plus("zero", "zero")).to.equal(0);
+expect(plus("zero", "one")).to.equal(1);
+expect(plus("zero", "two")).to.equal(2);
