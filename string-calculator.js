@@ -25,6 +25,12 @@ function toEnglish(word){
     if (word === "seven" ) {
       return 7;
     }
+    if ( word === "eight" ) {
+      return 8;
+    }
+    if ( word === "nine" ) {
+      return 9;
+    }
 }
 
 expect(toEnglish("zero")).to.equal(0);
