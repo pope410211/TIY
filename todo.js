@@ -32,4 +32,4 @@ addTaskToList("Take out the trash", taskList);
 // expect what now?
 expect(taskList[1]).to.equal("Take out the trash")
 expect(taskList.length).to.equal(2);
-console.log("this is task list[0]", taskList[0], "task[1]", taskList[2])
+console.log(taskList[0], taskList[1])
