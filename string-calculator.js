@@ -169,4 +169,15 @@ function minus(A, B){
 
  expect(minus("zero", "zero")).to.equal(0);
  expect(minus("zero", "one")).to.equal(-1);
- console.log(minus("zero", "one"))
+ expect(minus("zero", "two")).to.equal(-2);
+ expect(minus("zero", "three")).to.equal(-3);
+ expect(minus("zero", "four")).to.equal(-4);
+ expect(minus("zero", "five")).to.equal(-5);
+ expect(minus("zero", "six")).to.equal(-6);
+ expect(minus("zero", "seven")).to.equal(-7);
+ expect(minus("zero", "eight")).to.equal(-8);
+ expect(minus("zero", "nine")).to.equal(-9);
+ // console.log(minus("zero", "three"))
+ expect(minus("one", "zero:")).to.equal(1);
+ expect(minus("one", "one")).to.equal(0);
+ expect(minus("one", "two")).to.equal(-1);
