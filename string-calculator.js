@@ -151,7 +151,7 @@ expect(plus("eight", "nine")).to.equal(17);
 
 expect(plus("nine", "zero")).to.equal(9);
 expect(plus("nine", "one")).to.equal(10);
-expect(plus("nine", "two")).toequal(11);
+expect(plus("nine", "two")).to.equal(11);
 expect(plus("nine", "three")).to.equal(12);
 expect(plus("nine", "four")).to.equal(13);
 expect(plus("nine", "five")).to.equal(14);
