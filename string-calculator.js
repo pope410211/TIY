@@ -45,38 +45,10 @@ expect(toEnglish("eight")).to.equal(8);
 expect(toEnglish("nine")).to.equal(9);
 
 function plus( A, B) {
-  if ( A === "zero", B === "zero" ) {
-      return 0;
-  }
-  if ( A === "zero", B === "one" ) {
-      return 1;
-  }
-  if ( A === "zero", B === "two") {
-      return 2;
-  }
-  if ( A == "zero", B === "three") {
-      return 3;
-  }
-  if (A === "zero", B === "four") {
-      return 4;
-  }
-  if ( A === "zero", B === "five") {
-      return 5;
-  }
-  if ( A === "zero", B === "six") {
-      return 6;
-  }
-  if ( A === "zero", B === "seven") {
-      return 7;
-  }
-  if ( A === "zero", B === "eight") {
-      return 8;
-  }
-  if ( A === "zero", B === "nine") {
-      return 9;
-  }
+      return toEnglish(A) + toEngligh(B);
 }
 
+expect(plus).to.exist;
 expect(plus("zero", "zero")).to.equal(0);
 expect(plus("zero", "one")).to.equal(1);
 expect(plus("zero", "two")).to.equal(2);
@@ -88,4 +60,15 @@ expect(plus("zero", "seven")).to.equal(7);
 expect(plus("zero", "eight")).to.equal(8);
 expect(plus("zero", "nine")).to.equal(9);
 
+expect(plus("one", "zero")).to.equal(1);
 expect(plus("one", "one")).to.equal(2);
+expect(plus("one", "two")).to.equal(3);
+expect(plus("one", "three")).to.equal(4);
+expect(plus("one", "four")).to.equal(5);
+expect(plus("one", "five")).to.equal(6);
+expect(plus("one", "six")).to.equal(7);
+expect(plus("one", "seven")).to.equal(8);
+expect(plus("one", "eight")).to.equal(9);
+expect(plus("one", "nine")).to.equal(10);
+
+// console.log(plus("one", "nine"))
