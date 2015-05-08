@@ -160,4 +160,13 @@ expect(plus("nine", "seven")).to.equal(16);
 expect(plus("nine", "eight")).to.equal(17);
 expect(plus("nine", "nine")).to.equal(18);
 
-// console.log(plus("six", "nine"))
+//console.log(plus("six", "nine"))
+
+function minus(A, B){
+    return toEnglish(A) - toEnglish(B);
+}
+ expect(minus).to.exist;
+
+ expect(minus("zero", "zero")).to.equal(0);
+ expect(minus("zero", "one")).to.equal(-1);
+ console.log(minus("zero", "one"))
