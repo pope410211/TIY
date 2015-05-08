@@ -107,3 +107,24 @@ expect(plus("four", "nine")).to.equal(13);
 
 expect(plus("five", "zero")).to.equal(5);
 expect(plus("five", "one")).to.equal(6);
+expect(plus("five", "two")).to.equal(7);
+expect(plus("five", "three")).to.equal(8);
+expect(plus("five", "four")).to.equal(9);
+expect(plus("five", "five")).to.equal(10);
+expect(plus("five", "six")).to.equal(11);
+expect(plus("five", "seven")).to.equal(12);
+expect(plus("five", "eight")).to.equal(13);
+expect(plus("five", "nine")).to.equal(14);
+
+expect(plus("six", "zero")).to.equal(6);
+expect(plus("six", "one")).to.equal(7);
+expect(plus("six", "two")).to.equal(8);
+expect(plus("six", "three")).to.equal(9);
+expect(plus("six", "four")).to.equal(10);
+expect(plus("six", "five")).to.equal(11);
+expect(plus("six", "six")).to.equal(12);
+expect(plus("six", "seven")).to.equal(13);
+expect(plus("six", "eight")).to.equal(14);
+expect(plus("six", "nine")).to.equal(15);
+
+expect(plus("seven", "zero")).to.equal(7);
