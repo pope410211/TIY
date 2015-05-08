@@ -44,8 +44,8 @@ expect(toEnglish("seven")).to.equal(7);
 expect(toEnglish("eight")).to.equal(8);
 expect(toEnglish("nine")).to.equal(9);
 
-function plus( A, B) {
-      return toEnglish(A) + toEngligh(B);
+function plus(A, B){
+      return toEnglish(A) + toEnglish(B);
 }
 
 expect(plus).to.exist;
@@ -72,3 +72,20 @@ expect(plus("one", "eight")).to.equal(9);
 expect(plus("one", "nine")).to.equal(10);
 
 // console.log(plus("one", "nine"))
+expect(plus("two", "zero")).to.equal(2);
+expect(plus("two", "one")).to.equal(3);
+expect(plus("two", "two")).to.equal(4);
+expect(plus("two", "three")).to.equal(5);
+expect(plus("two", "four")).to.equal(6);
+expect(plus("two", "five")).to.equal(7);
+expect(plus("two", "six")).to.equal(8);
+expect(plus("two", "seven")).to.equal(9);
+expect(plus("two", "eight")).to.equal(10);
+expect(plus("two", "nine")).to.equal(11);
+
+expect(plus("three", "zero")).to.equal(3);
+expect(plus("three", "one")).to.equal(4);
+expect(plus("three", "two")).to.equal(5);
+expect(plus("three", "three")).to.equal(6);
+expect(plus("three", "four")).to.equal(7);
+expect(plus("three", "five")).to.equal(8);
