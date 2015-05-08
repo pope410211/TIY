@@ -87,3 +87,5 @@ expect(plus("zero", "six")).to.equal(6);
 expect(plus("zero", "seven")).to.equal(7);
 expect(plus("zero", "eight")).to.equal(8);
 expect(plus("zero", "nine")).to.equal(9);
+
+expect(plus("one", "one")).to.equal(2);
