@@ -39,4 +39,4 @@ function orderTask(list, task){
   return list.pull(task);
 }
 
-e
+expect(orderTask[1]).to.equal(0);
