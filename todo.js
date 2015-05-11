@@ -35,8 +35,8 @@ expect(taskList.length).to.equal(2);
 // console.log(taskList[0], taskList[1])
 
 // I can prioritie my tasks
-function orderTask(){
-
+function orderTask(list, task){
+  return list.pull(task);
 }
 
 e
