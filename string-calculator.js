@@ -218,6 +218,7 @@ expect(divide("zero", "two")).to.equal(0);
 expect(divide("one", "zero")).to.equal(Infinity);
 expect(divide("one", "one")).to.equal(1)
 
+/*
 var numbers = [ "zero", "one", "two"];
 
 var index = 0;
@@ -239,4 +240,4 @@ for (var index - 0; index < numbers.length; index++){
 }
 numbers.forEach(function(item /*, index, all*/){
     item
-});
+}); */
