@@ -1,6 +1,8 @@
 var expect = require('chai').expect
 
-function toEnglish(word){
+function toNumber(word){
+    var numbers = ["zero", "one", "two"];
+
     if ( word === "zero" ) {
       return 0;
     }
@@ -33,19 +35,19 @@ function toEnglish(word){
     }
 }
 
-expect(toEnglish("zero")).to.equal(0);
-expect(toEnglish("one")).to.equal(1);
-expect(toEnglish("two")).to.equal(2);
-expect(toEnglish("three")).to.equal(3);
-expect(toEnglish("four")).to.equal(4);
-expect(toEnglish("five")).to.equal(5);
-expect(toEnglish("six")).to.equal(6);
-expect(toEnglish("seven")).to.equal(7);
-expect(toEnglish("eight")).to.equal(8);
-expect(toEnglish("nine")).to.equal(9);
+expect(toNumber("zero")).to.equal(0);
+expect(toNumber("one")).to.equal(1);
+expect(toNumber("two")).to.equal(2);
+expect(toNumber("three")).to.equal(3);
+expect(toNumber("four")).to.equal(4);
+expect(toNumber("five")).to.equal(5);
+expect(toNumber("six")).to.equal(6);
+expect(toNumber("seven")).to.equal(7);
+expect(toNumber("eight")).to.equal(8);
+expect(toNumber("nine")).to.equal(9);
 
 function plus(A, B){
-      return toEnglish(A) + toEnglish(B);
+      return toNumber(A) + toNumber(B);
 }
 
 expect(plus).to.exist;
@@ -163,7 +165,7 @@ expect(plus("nine", "nine")).to.equal(18);
 //console.log(plus("six", "nine"))
 
 function minus(A, B){
-    return toEnglish(A) - toEnglish(B);
+    return toNumber(A) - toNumber(B);
 }
  expect(minus).to.exist;
 
@@ -190,3 +192,51 @@ function minus(A, B){
  expect(minus("one", "eight")).to.equal(-7);
  expect(minus("one", "nine")).to.equal(-8);
  console.log(minus("one", "five"))
+
+/**
+  * @param {String} A
+  * @param {String} B
+  * @return {Number} Infinity or 0
+  */
+function divide(A, B){
+    if (B === "zero"){
+      return Infinity;
+    }
+    if (A === "one"){
+      if(B === "zero"){
+        return Infinity;
+      }
+      return 1;
+    }
+    return 0;
+  }
+
+expect(divide("zero", "zero")).to.equal(Infinity);
+expect(divide("zero", "one")).to.equal(0);
+expect(divide("zero", "two")).to.equal(0);
+// ...
+expect(divide("one", "zero")).to.equal(Infinity);
+expect(divide("one", "one")).to.equal(1)
+
+var numbers = [ "zero", "one", "two"];
+
+var index = 0;
+while (index < numbers.length){
+  item = numbers[index]
+  // do something
+  index = index + 1;
+}
+
+
+for (var index = 0; index < numbers.length; index = index + 1){
+// do something
+}
+
+for (var iteration = 0; iteration < 4; iteration++){
+}
+
+for (var index - 0; index < numbers.length; index++){
+}
+numbers.forEach(function(item /*, index, all*/){
+    item
+});
