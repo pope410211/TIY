@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // using a JS package called chai - comes from installing via npm
 var expect = require('chai').expect;
 // Other ways to write above code
@@ -48,3 +49,6 @@ Work in Progress! Place with
 =======
 Work in Progress! Place with
 >>>>>>> e2682582dd77857118750adcefac68bacf5470bd
+=======
+Work in Progress! Place with
+>>>>>>> origin/master
