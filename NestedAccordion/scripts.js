@@ -4,7 +4,7 @@
 
 document.head.parentElement.className = "js"; // It's alive!
 
-var elements = document.querySelectorAll('h3');
+var elements = document.querySelectorAll('.cbp-nttrigger');
 
 // elements[0].addEventListener('click', function(){
 //     elements[0].parentElement.classList.toggle('cbp-ntopen');
