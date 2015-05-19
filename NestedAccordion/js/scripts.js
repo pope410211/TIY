@@ -2,31 +2,27 @@
 // alert("It's alive!");
 // debugger;
 
-document.head.parentElement.className = "js"; // It's alive!
-
-var elements = document.querySelectorAll('.cbp-nttrigger');
-
-// elements[0].addEventListener('click', function(){
-//     elements[0].parentElement.classList.toggle('cbp-ntopen');
-// });
+// document.head.parentNode.className = "js"; // It's alive!
 //
-// elements[1].addEventListener('click', function(){
-//     elements[1].parentElement.classList.toggle('cbp-ntopen');
-// });
+// window.alert ("CSS is easier than JAVASCRIPT, get us some Waffles!")
+//
+// _.forEach(document.querySelectorAll('.cbp-nttrigger'), function(element){
+//   element.addEventListener('click', function(){
+//     element.parentElement.classList.toggle('cbp-ntopen')
+//   })
+// })
 
-// WHY JAVASCRIPT WHY!?!?
-// for ( var index = 0; index < elements.length; index++ ){
-//     var element = elements[index]
-//     element.addEventListener('click', function(){
-//         console.log(elements, index, element);
-//         element.parentElement.classList.toggle('cbp-ntopen');
-//     });
-// }
-// console.log(index);
+// jQuery allows the above to be turned into the following;
+// $ = jQuery
 
-_.forEach(elements, function(element, index, elements){
-    element.addEventListener('click', function(){
-        console.log(elements, index, element);
-        element.parentElement.classList.toggle('cbp-ntopen');
-    });
-});
+  $('.cbp-nttrigger').on('click', function(event){
+      $(event.target).parent().toggleClass('cbp-ntopen');
+  });
+
+// NOTES:
+  // TO OPEN THE ACCORDION
+  //  WHAT EVENT SHOULD I LISTEN FOR?
+  //  WHAT ELEMENT SHOULD LISTEN FOR THE EVENT?
+  //  WHAT SHOULD I DO WHEN THAT EVENR FIRES?
+    //  1.TOGGLE `.cbp-ntopen` from parent `<li>` ELEMENT\
+    //

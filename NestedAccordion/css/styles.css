@@ -1,1 +1,28 @@
+body {
+		background-color: White;
+		color: lightgrey;
+}
 
+h3, h4 {
+		color: cornflowerblue;
+		font-size: 20pt;
+		b
+}
+
+h3 {
+	color: cornflowerblue;
+	font-size: 40;
+	border-bottom: 1pt grey solid;
+}
+
+h5 {
+		color: darkgrey;
+}
+
+.js .cbp-ntcontent {
+	display: none;
+}
+
+.cbp-ntopen > .cbp-ntcontent {
+		display: block;
+}
