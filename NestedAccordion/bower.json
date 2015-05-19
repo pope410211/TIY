@@ -1,0 +1,19 @@
+{
+  "name": "NestedAccordion",
+  "version": "0.0.0",
+  "authors": [
+    "Nick Pope <pope410211@gmail.com>"
+  ],
+  "license": "cco",
+  "homepage": "pope410211.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.8.0"
+  }
+}
