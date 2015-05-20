@@ -1,22 +1,24 @@
 body {
-		background-color: White;
+		background-color: black;
 		color: lightgrey;
+		font-family:'Indie Flower', cursive;
+		font-size: '16pt'
 }
 
 h3, h4 {
-		color: cornflowerblue;
+		color: darkblue;
 		font-size: 20pt;
 		b
 }
 
 h3 {
-	color: cornflowerblue;
+	color: darkred;
 	font-size: 40;
 	border-bottom: 1pt grey solid;
 }
 
 h5 {
-		color: darkgrey;
+		color: purple;
 }
 
 .js .cbp-ntcontent {
@@ -25,4 +27,12 @@ h5 {
 
 .cbp-ntopen > .cbp-ntcontent {
 		display: block;
+}
+
+li {
+	list-style: ;
+}
+
+li {
+	list-style-image:
 }
