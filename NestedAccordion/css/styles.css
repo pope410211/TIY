@@ -1,22 +1,41 @@
 body {
-		background-color: White;
+		background-color: white;
 		color: lightgrey;
+		font-family:'Indie Flower', cursive;
+		font-size: '16pt'
 }
 
 h3, h4 {
-		color: cornflowerblue;
+		color: darkblue;
 		font-size: 20pt;
-		b
 }
 
 h3 {
-	color: cornflowerblue;
+	color: darkred;
 	font-size: 40;
 	border-bottom: 1pt grey solid;
+
+}
+
+.cbp-nttrigger::before {
+	content: ">";
+	padding-right: 0.5em
+}
+.cbp-ntopen > .cbp-nttrigger::before {
+	content: "v";
+}
+
+.cbp-nttrigger:hover {
+	cursor: pointer;
+}
+
+.cbp-nttrigger:hover::before{
+	color: green;
+	content: ;
 }
 
 h5 {
-		color: darkgrey;
+		color: purple;
 }
 
 .js .cbp-ntcontent {
@@ -25,4 +44,9 @@ h5 {
 
 .cbp-ntopen > .cbp-ntcontent {
 		display: block;
+}
+
+
+li {
+	list-style-image:
 }
