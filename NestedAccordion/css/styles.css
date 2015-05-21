@@ -1,5 +1,5 @@
 body {
-		background-color: black;
+		background-color: white;
 		color: lightgrey;
 		font-family:'Indie Flower', cursive;
 		font-size: '16pt'
@@ -8,13 +8,30 @@ body {
 h3, h4 {
 		color: darkblue;
 		font-size: 20pt;
-		b
 }
 
 h3 {
 	color: darkred;
 	font-size: 40;
 	border-bottom: 1pt grey solid;
+
+}
+
+.cbp-nttrigger::before {
+	content: ">";
+	padding-right: 0.5em
+}
+.cbp-ntopen > .cbp-nttrigger::before {
+	content: "v";
+}
+
+.cbp-nttrigger:hover {
+	cursor: pointer;
+}
+
+.cbp-nttrigger:hover::before{
+	color: green;
+	content: ;
 }
 
 h5 {
@@ -29,9 +46,6 @@ h5 {
 		display: block;
 }
 
-li {
-	list-style: ;
-}
 
 li {
 	list-style-image:
