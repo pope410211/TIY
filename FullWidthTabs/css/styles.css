@@ -3,13 +3,38 @@ body {
   color: cornflowerblue;
 }
 
-li {
+nav li{
   display: inline-block;
 
 }
 
+nav a {
+  font-size: 20pt;
+  font-family:'Abel', sans-serif;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 1px solid cornflowerblue;
+  border-bottom: 0;
+  position: relative;
+  margin: .5em .5em .5em .5em;
+  text-decoration: none;
+}
 
-.mediabox img{
+
+nav ul {
+  border-bottom: 1px solid cornflowerblue;
+  padding-bottom: 0.75em;
+  margin-top: 3.5em;
+  margin-bottom: 2em;
+
+
+}
+
+nav {
+  text-align: center;
+}
+
+
+.mediabox img {
   width: 100%;
 }
 .mediabox {
@@ -19,10 +44,13 @@ li {
   padding-left: 1em;
   padding-right: 1em;
 }
-
-.content section[id^="section-"]{
-  padding-right: 1em;
+.content section[id^="section-"] {
+  display: none;
   padding-left: 1em;
+  padding-right: 1em;
+}
+.content section[id^="section-"].content-current {
+  display: block;
 }
 .content section[id^="section-"]::after{
   content: " ";
