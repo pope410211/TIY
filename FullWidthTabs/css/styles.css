@@ -1,13 +1,14 @@
 body {
-  font-family:'Bree Serif', serif;
+  font-family: arial, sans-serif;
   color: cornflowerblue;
 }
 
-nav li{
+li {
   display: inline-block;
 
 }
 
+<<<<<<< HEAD
 a.icon-shop::before{
   content: '\1f4b0';
   font-size: 100%;
@@ -44,6 +45,10 @@ nav {
 
 
 .mediabox img {
+=======
+
+.mediabox img{
+>>>>>>> e7c3c00e5ce2fcc5dbb6f7fcac72e5838128479b
   width: 100%;
 }
 .mediabox {
@@ -53,13 +58,10 @@ nav {
   padding-left: 1em;
   padding-right: 1em;
 }
-.content section[id^="section-"] {
-  display: none;
-  padding-left: 1em;
+
+.content section[id^="section-"]{
   padding-right: 1em;
-}
-.content section[id^="section-"].content-current {
-  display: block;
+  padding-left: 1em;
 }
 .content section[id^="section-"]::after{
   content: " ";

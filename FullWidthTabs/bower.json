@@ -5,7 +5,6 @@
   "authors": [
     "Nick Pope <pope410211@gmail.com>"
   ],
-  "description": "FullWidthTabs MVC",
   "license": "CCO",
   "ignore": [
     "**/.*",
