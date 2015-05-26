@@ -1,5 +1,5 @@
 body {
-  font-family: arial, sans-serif;
+  font-family:'Bree Serif', serif;
   color: cornflowerblue;
 }
 
@@ -10,18 +10,19 @@ nav li{
 
 nav a {
   font-size: 20pt;
-  font-family:'Abel', sans-serif;
+  font-family:'Bree Serif', serif;
   padding: 0.5em 1em 0.5em 1em;
-  border: 1px solid cornflowerblue;
+  border: 1px solid lightgray;
   border-bottom: 0;
   position: relative;
   margin: .5em .5em .5em .5em;
   text-decoration: none;
+  font: cornflowerblue;
 }
 
 
 nav ul {
-  border-bottom: 1px solid cornflowerblue;
+  border-bottom: 1px solid lightgray;
   padding-bottom: 0.75em;
   margin-top: 3.5em;
   margin-bottom: 2em;
