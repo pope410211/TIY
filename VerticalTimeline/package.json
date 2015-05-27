@@ -1,0 +1,22 @@
+{
+  "name": "VerticalTimeline",
+  "version": "0.0.0",
+  "description": "Created by Codrops",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --directory --files='index.html, css/main.css, js/main.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pope410211/TIY-Assignments"
+  },
+  "author": "Nick Pope(pope410211)",
+  "license": "CCO",
+  "bugs": {
+    "url": "https://github.com/pope410211/TIY-Assignments/issues"
+  }
+}

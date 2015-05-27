@@ -1,5 +1,5 @@
 {
-  "name": "FullWidthTabs",
+  "name": "VerticalTimeline",
   "version": "0.0.0",
   "homepage": "https://github.com/pope410211/TIY-Assignments",
   "authors": [
@@ -15,6 +15,7 @@
   ],
   "dependencies": {
     "jQuery": "~2.1.4",
+    "modernizr": "~2.8.3",
     "lodash": "~3.9.3",
     "normalize.css": "~3.0.3"
   }
