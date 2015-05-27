@@ -24,7 +24,9 @@ nav ul {
   margin-top: 3.5em;
   margin-bottom: 2em;
 }
-
+a {
+  hover:
+}
 nav a {
   font-size: 20pt;
   font-family:'Bree Serif', serif;
