@@ -94,9 +94,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.Naccordion {
+  display: block;
+}
+.mainText li {
+  list-style: none;
+  color:red;
+}
 
-
-
+.mainText > .open > *::before {
+content: '>';
+color: inherit;
+}
 
 
 
