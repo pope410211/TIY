@@ -100,16 +100,31 @@ body {
 
 .Naccordion {
   display: block;
+  max-width: 100;
+  margin: 0 2em 0 2em;
 }
 .mainText li {
   list-style: none;
   color:cornflowerblue;
+  font-size: 20pt;
+
+}
+
+
+.displayH{
+  display: none;
 }
 
 .para::before {
-  content: ">";
+  content: "\2905";
   color: cornflowerblue;
   padding-right: 1em;
+  margin: 0;
+}
+
+.para:hover {
+  content:"\2925";
+  cursor:pointer;
 }
 
 
