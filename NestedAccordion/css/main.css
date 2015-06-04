@@ -127,6 +127,10 @@ body {
   cursor:pointer;
 }
 
+.para .open::before{
+content:"\2913";
+}
+
 
 
 
