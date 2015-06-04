@@ -1,7 +1,7 @@
 
 
 var openIt = document.getElementsByTagName('para');{
-  root.setAtrr
+  root.setAtrrra
 
   console.log('I am working')
 }
