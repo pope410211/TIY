@@ -94,19 +94,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  color:darkgrey;
+}
+
 .Naccordion {
   display: block;
 }
 .mainText li {
   list-style: none;
-  color:red;
+  color:cornflowerblue;
 }
 
-.mainText > .open > *::before {
-content: '>';
-color: inherit;
+.para::before {
+  content: ">";
+  color: cornflowerblue;
+  padding-right: 1em;
 }
-
 
 
 
