@@ -122,7 +122,7 @@ body {
   margin: 0;
 }
 
-.para:hover {
+.para:hover::before {
   content:"\2925";
   cursor:pointer;
 }
