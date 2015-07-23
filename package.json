@@ -1,0 +1,19 @@
+{
+  "name": "tiy-assignments",
+  "version": "0.0.0",
+  "description": "JavaScript Training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pope410211/TIY-Assignments.git"
+  },
+  "author": "Nick Pope <pope410211@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pope410211/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/pope410211/TIY-Assignments#readme"
+}
