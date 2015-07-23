@@ -1,0 +1,15 @@
+{
+  "name": "nestedaccordion",
+  "version": "0.0.0",
+  "description": "JS training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pope410211/TIY-Assignments/tree/master"
+  },
+  "author": "Nick Pope <pope410211@gmail.com>",
+  "license": "ISC"
+}
