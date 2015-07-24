@@ -79,10 +79,17 @@ textarea {
    ========================================================================== */
 body {
   max-width: 100%;
-  background-color: #FCFBE3; }
+  background-color: #F2F5FF;
+  color: #87D619; }
   body .container {
     max-width: 80%;
     margin: 0 auto; }
+    body .container h3 {
+      color: #C54E0A; }
+    body .container h4 {
+      color: #6097FE; }
+    body .container h5 {
+      color: #070300; }
 
 /* ==========================================================================
    Helper classes

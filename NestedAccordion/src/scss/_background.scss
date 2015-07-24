@@ -1,10 +1,22 @@
 body {
   max-width: 100%;
-  background-color: #FCFBE3;
-
+  background-color: #F2F5FF;
+  color: #87D619;
 
   .container{
     max-width: 80%;
     margin: 0 auto;
+
+    h3{
+      color: #C54E0A;
+    }
+
+  h4{
+    color: #6097FE;
   }
-}
+  h5{
+     color: #070300;
+  }
+
+  }//end container
+}//end body
