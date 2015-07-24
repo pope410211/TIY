@@ -11,12 +11,12 @@ body {
       list-style: none;
 
 
-      .trigger::before{
+      .trigger.icon::before{
         content: "\2192";
         padding-right: 1em;
         color:grey;
       }
-      .trigger:hover::before{
+      .trigger.icon:hover::before{
         content: "\2198";
         padding-right: 1em;
         color: #C54E0A;
@@ -25,10 +25,11 @@ body {
         height: 0;
         display: none;
       }
-      .trigger-open::before{
+      .trigger::before{
         content: "\2193";
         color: #C54E0A;
         padding-right: 1em;
+      }
 
 
     }//end li
