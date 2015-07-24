@@ -77,8 +77,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.container {
-  max-width: 80%; }
+body {
+  max-width: 100%;
+  background-color: #F2F5FF;
+  color: #87D619; }
+  body .container {
+    max-width: 80%;
+    margin: 0 auto; }
+    body .container h3 {
+      color: #C54E0A; }
+    body .container h4 {
+      color: #6097FE; }
+    body .container h5 {
+      color: #070300; }
+
+body .accordion .trigger {
+  cursor: pointer; }
+
+body .accordion li {
+  list-style: none; }
+  body .accordion li .trigger::before {
+    content: "\2192";
+    padding-right: 1em;
+    color: grey; }
+  body .accordion li .trigger:hover::before {
+    content: "\2198";
+    padding-right: 1em;
+    color: #C54E0A; }
+  body .accordion li .content-close {
+    height: 0;
+    display: none; }
+  body .accordion li .content-open::before {
+    content: "\2193";
+    color: #C54E0A;
+    padding-right: 1em; }
 
 /* ==========================================================================
    Helper classes
