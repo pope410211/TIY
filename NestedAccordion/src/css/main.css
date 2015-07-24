@@ -96,18 +96,18 @@ body .accordion .trigger {
 
 body .accordion li {
   list-style: none; }
-  body .accordion li .trigger::before {
+  body .accordion li .trigger.icon::before {
     content: "\2192";
     padding-right: 1em;
     color: grey; }
-  body .accordion li .trigger:hover::before {
+  body .accordion li .trigger.icon:hover::before {
     content: "\2198";
     padding-right: 1em;
     color: #C54E0A; }
   body .accordion li .content-close {
     height: 0;
     display: none; }
-  body .accordion li .content-open::before {
+  body .accordion li .trigger::before {
     content: "\2193";
     color: #C54E0A;
     padding-right: 1em; }
