@@ -78,17 +78,53 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  width: 100%; }
+  width: 100%;
+  max-width: 100%; }
+  body .tabs {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    clear: both; }
+    body .tabs nav ul {
+      margin: auto; }
+      body .tabs nav ul li {
+        float: left;
+        list-style: none;
+        display: inline-block; }
   body .container {
-    width: 80%;
-    max-width: 80%; }
-    body .container .tabs nav ul li {
-      float: left;
-      list-style: none;
-      display: block; }
+    float: left;
+    clear: both; }
+    body .container .content {
+      margin-top: 2em; }
+      body .container .content .mediabox {
+        float: left;
+        width: 25%;
+        padding: 0 25px; }
+        body .container .content .mediabox img {
+          max-width: 100%;
+          display: block;
+          margin: 0 auto; }
+        body .container .content .mediabox h3 {
+          margin: 0.75em 0 0.5em; }
+        body .container .content .mediabox p {
+          padding: 0 0 1em 0;
+          margin: 0;
+          line-height: 1.3; }
 
-body .container .iconShop {
-  content: "\2302"; }
+body #iconShop:before {
+  content: "\1f3e1"; }
+
+body #iconDrink:before {
+  content: "\1f379"; }
+
+body #iconFood:before {
+  content: "\1f355"; }
+
+body #iconLab:before {
+  content: "\1f52c"; }
+
+body #iconOrder:before {
+  content: "\24"; }
 
 /* ==========================================================================
    Helper classes

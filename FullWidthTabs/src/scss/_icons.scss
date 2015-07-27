@@ -1,13 +1,23 @@
 body {
 
 
-   .container {
 
-     
-     .iconShop {
-       content: "\2302";
+
+     #iconShop:before {
+       content: "\1f3e1";
+     }
+     #iconDrink:before {
+       content: "\1f379";
+     }
+     #iconFood:before {
+       content: "\1f355";
+     }
+     #iconLab:before {
+       content: "\1f52c";
+     }
+     #iconOrder:before {
+       content: "\24";
      }
 
-   } // end container
 
 }// end body
