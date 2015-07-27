@@ -1,14 +1,21 @@
 body{
   width: 100%;
 
-  .contaner {
+  .container {
     width: 80%;
     max-width: 80%;
 
     .tabs {
+
+      nav {
+
+        ul li{
+
       float: left;
       list-style: none;
-      
-    }
+}
+    }//end nav
+
+    }//end tabs
   } //end container
 } // end body

@@ -79,9 +79,15 @@ textarea {
    ========================================================================== */
 body {
   width: 100%; }
-  body .contaner {
+  body .container {
     width: 80%;
     max-width: 80%; }
+    body .container .tabs nav ul li {
+      float: left;
+      list-style: none; }
+
+#iconShop {
+  content: "\2302"; }
 
 /* ==========================================================================
    Helper classes
