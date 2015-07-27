@@ -2,6 +2,10 @@ body{
   width: 100%;
   max-width: 100%;
 
+  .content-current {
+    display: block;
+  }
+
     .tabs {
       width: 100%;
       max-width: 100%;
@@ -10,15 +14,26 @@ body{
 
       nav {
 
-
         ul {
           margin: auto;
+          text-align: center;
 
 
         li {
       float: left;
       list-style: none;
       display: inline-block;
+      border: 1px solid;
+      padding: 1em;
+
+      a{
+      text-decoration: none;
+}
+
+&::before, &::after {
+  width: 100%;
+  border-bottom: 1px solid;
+}
 
 }
 }//end ul
@@ -31,8 +46,12 @@ body{
       clear: both;
 
 
-      .content{
+      .content {
 margin-top: 2em;
+
+      section {
+        display: none;
+      }
 
         .mediabox {
         	float: left;
