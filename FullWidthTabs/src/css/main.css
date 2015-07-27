@@ -84,9 +84,10 @@ body {
     max-width: 80%; }
     body .container .tabs nav ul li {
       float: left;
-      list-style: none; }
+      list-style: none;
+      display: block; }
 
-#iconShop {
+body .container .iconShop {
   content: "\2302"; }
 
 /* ==========================================================================
