@@ -15,5 +15,9 @@
     "url": "https://github.com/pope410211/TIY-Assignments/tree/master"
   },
   "author": "Nick Pope <pope410211@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.8.0",
+    "wiredep": "^2.2.2"
+  }
 }
