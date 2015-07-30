@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    max-width: 100%;
+    font-color: black;
+
+    a{
+      color: black;
+    }
+
+    .content-current {
+        display: block;
+    }
+    .container {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        clear: both;
+        float: left;
+
+
+        .content {
+            margin-top: 2em;
+
+            section {
+                display: none;
+            }
+
+            .display-yes{
+              display: block;
+
+            .mediabox {
+                float: left;
+                width: 25%;
+                padding: 0 25px;
+                img {
+                    max-width: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+                h3 {
+                    margin: 0.75em 0 0.5em;
+                }
+                p {
+                    padding: 0 0 1em;
+                    margin: 0;
+                    line-height: 1.3;
+                }
+            }
+            //end mediabox
+          }
+          //end display-yes
+        }
+        //end content
+    }
+    // end container
+}
+// end body
