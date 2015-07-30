@@ -91,22 +91,24 @@ body {
     float: left; }
     body .container .content {
       margin-top: 2em; }
-      body .container .content .display-none {
+      body .container .content section {
         display: none; }
-      body .container .content .mediabox {
-        float: left;
-        width: 25%;
-        padding: 0 25px; }
-        body .container .content .mediabox img {
-          max-width: 100%;
-          display: block;
-          margin: 0 auto; }
-        body .container .content .mediabox h3 {
-          margin: 0.75em 0 0.5em; }
-        body .container .content .mediabox p {
-          padding: 0 0 1em;
-          margin: 0;
-          line-height: 1.3; }
+      body .container .content .display-yes {
+        display: block; }
+        body .container .content .display-yes .mediabox {
+          float: left;
+          width: 25%;
+          padding: 0 25px; }
+          body .container .content .display-yes .mediabox img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto; }
+          body .container .content .display-yes .mediabox h3 {
+            margin: 0.75em 0 0.5em; }
+          body .container .content .display-yes .mediabox p {
+            padding: 0 0 1em;
+            margin: 0;
+            line-height: 1.3; }
 
 body #iconShop:before {
   content: "\1f3e1"; }
@@ -123,11 +125,41 @@ body #iconLab:before {
 body #iconOrder:before {
   content: "\24"; }
 
-body .container .tab-width ul {
-  margin: 0 auto; }
-  body .container .tab-width ul li {
-    float: left;
-    list-style: none; }
+body .container .tab-width {
+  display: block;
+  text-align: center;
+  margin-top: 2ex;
+  margin-bottom: 6ex; }
+  body .container .tab-width ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: .15ex solid black; }
+    body .container .tab-width ul li {
+      display: inline-block;
+      width: 12.5%;
+      min-width: 3em;
+      padding: 0;
+      border-top: .15ex solid lightgray;
+      border-left: .15ex solid lightgray;
+      border-right: .15ex solid lightgray;
+      line-height: 2em;
+      cursor: pointer; }
+      body .container .tab-width ul li a {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        padding: 0.45ex 0 0.45ex 0;
+        font-color: lightgray;
+        font-size: 3ex;
+        line-height: 1.5em; }
+        body .container .tab-width ul li a:hover {
+          color: darkgray; }
+    body .container .tab-width ul .tabs-current {
+      border-top: .4ex solid black;
+      border-left: .15ex solid black;
+      border-right: .15ex solid black;
+      border-bottom: .15ex solid white; }
 
 /* ==========================================================================
    Helper classes

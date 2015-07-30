@@ -17,9 +17,13 @@ body {
         .content {
             margin-top: 2em;
 
-            .display-none {
+            section {
                 display: none;
             }
+
+            .display-yes{
+              display: block;
+
             .mediabox {
                 float: left;
                 width: 25%;
@@ -39,6 +43,8 @@ body {
                 }
             }
             //end mediabox
+          }
+          //end display-yes
         }
         //end content
     }
