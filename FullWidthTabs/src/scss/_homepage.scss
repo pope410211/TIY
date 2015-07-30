@@ -6,28 +6,33 @@ body{
     display: block;
   }
 
-    .tabs {
+    .container {
       width: 100%;
       max-width: 100%;
       position: relative;
       clear: both;
+      float: left;
 
-      nav {
+ .tab-width {
+
+  
 
         ul {
           margin: auto;
           text-align: center;
 
 
-        li {
+         li {
       float: left;
       list-style: none;
       display: inline-block;
-      border: 1px solid;
+      border: 1px solid gray;
       padding: 1em;
+      cursor: pointer;
 
-      a{
+      a {
       text-decoration: none;
+      color: gray;
 }
 
 &::before, &::after {
@@ -35,21 +40,18 @@ body{
   border-bottom: 1px solid;
 }
 
-}
+}// end tabs
 }//end ul
+}//end tab width
 
-    }//end nav
 
-    }//end tabs
-    .container {
-      float: left;
-      clear: both;
+
 
 
       .content {
 margin-top: 2em;
 
-      section {
+      .display-none {
         display: none;
       }
 

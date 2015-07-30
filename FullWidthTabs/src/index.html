@@ -20,40 +20,38 @@
 </head>
 
 <body>
-        <div class="tabs">
-            <nav>
+        <main class="container">
+            <nav class="tab-width">
                 <ul>
-                    <li>
+                    <li class="tabs-current">
                         <a href="#shop"  id="iconShop">
                             <span>Shop</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="tabs">
                         <a href="#drinks" id="iconDrink">
                             <span>Drinks</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="tabs">
                         <a href="#food" id="iconFood">
                             <span>Food</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="tabs">
                         <a href="#lab" id="iconLab">
                             <span>Lab</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="tabs">
                         <a href="#order" id="iconOrder">
                             <span>Order</span>
                         </a>
                     </li>
                 </ul>
             </nav>
-
-            <main class="container">
             <div class="content">
-                <section id="shop">
+                <section class="display-yes" id="shop">
                     <div class="mediabox">
                         <img src="http://lorempixel.com/output/cats-q-c-300-200-8.jpg">
                         <h3>Look Kitty</h3>
@@ -70,7 +68,7 @@
                         <p>Dogs, fluffy, puppies, those who can withstand the awesome power of cats, and chase them around!</p>
                     </div>
                 </section>
-                <section id="drinks">
+                <section class="display-none" id="drinks">
                     <div class="mediabox">
                         <img src="http://lorempixel.com/output/animals-q-c-300-200-1.jpg">
                         <h3>Look Kitty</h3>
@@ -87,7 +85,7 @@
                         <p>Dogs, fluffy, puppies, those who can withstand the awesome power of cats, and chase them around!</p>
                     </div>
                 </section>
-                <section id="food">
+                <section class="display-none" id="food">
                     <div class="mediabox">
                         <img src="http://lorempixel.com/output/cats-q-c-300-200-8.jpg">
                         <h3>Look Kitty</h3>
@@ -104,7 +102,7 @@
                         <p>Dogs, fluffy, puppies, those who can withstand the awesome power of cats, and chase them around!</p>
                     </div>
                 </section>
-                <section id="lab">
+                <section class="display-none" id="lab">
                     <div class="mediabox">
                         <img src="http://lorempixel.com/output/animals-q-c-300-200-1.jpg">
                         <h3>Look Kitty</h3>
@@ -121,7 +119,7 @@
                         <p>Dogs, fluffy, puppies, those who can withstand the awesome power of cats, and chase them around!</p>
                     </div>
                 </section>
-                <section id="order">
+                <section class="display-none" id="order">
                     <div class="mediabox">
                         <img src="http://lorempixel.com/output/animals-q-c-300-200-1.jpg">
                         <h3>Look Kitty</h3>
@@ -143,8 +141,7 @@
             <!-- end div .content -->
     </main>
     <!-- end main container -->
-    </div>
-    <!-- end tabs -->
+
 
     <!-- bower:js -->
     <script src="../bower_components/jQuery/dist/jquery.js"></script>

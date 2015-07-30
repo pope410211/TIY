@@ -82,31 +82,33 @@ body {
   max-width: 100%; }
   body .content-current {
     display: block; }
-  body .tabs {
+  body .container {
     width: 100%;
     max-width: 100%;
     position: relative;
-    clear: both; }
-    body .tabs nav ul {
+    clear: both;
+    float: left; }
+    body .container .tab-width a:hover {
+      color: darkgray; }
+    body .container .tab-width ul {
       margin: auto;
       text-align: center; }
-      body .tabs nav ul li {
+      body .container .tab-width ul li {
         float: left;
         list-style: none;
         display: inline-block;
-        border: 1px solid;
-        padding: 1em; }
-        body .tabs nav ul li a {
-          text-decoration: none; }
-        body .tabs nav ul li::before, body .tabs nav ul li::after {
+        border: 1px solid gray;
+        padding: 1em;
+        cursor: pointer; }
+        body .container .tab-width ul li a {
+          text-decoration: none;
+          color: gray; }
+        body .container .tab-width ul li::before, body .container .tab-width ul li::after {
           width: 100%;
           border-bottom: 1px solid; }
-  body .container {
-    float: left;
-    clear: both; }
     body .container .content {
       margin-top: 2em; }
-      body .container .content section {
+      body .container .content .display-none {
         display: none; }
       body .container .content .mediabox {
         float: left;
