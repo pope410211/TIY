@@ -1,0 +1,19 @@
+body {
+    .container {
+        .tab-width {
+            ul {
+              margin: 0 auto;
+
+                li {
+                  float: left;
+                  list-style: none;
+                }
+                //end li
+            }
+            //end ul
+        }
+        //end tab-width
+    }
+    // end container
+}
+// end body

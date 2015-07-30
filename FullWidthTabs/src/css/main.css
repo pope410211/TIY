@@ -80,7 +80,7 @@ textarea {
 body {
   width: 100%;
   max-width: 100%;
-  color: black; }
+  font-color: black; }
   body .content-current {
     display: block; }
   body .container {
@@ -122,6 +122,12 @@ body #iconLab:before {
 
 body #iconOrder:before {
   content: "\24"; }
+
+body .container .tab-width ul {
+  margin: 0 auto; }
+  body .container .tab-width ul li {
+    float: left;
+    list-style: none; }
 
 /* ==========================================================================
    Helper classes
