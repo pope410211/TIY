@@ -81,6 +81,8 @@ body {
   width: 100%;
   max-width: 100%;
   font-color: black; }
+  body a {
+    color: black; }
   body .content-current {
     display: block; }
   body .container {
@@ -150,7 +152,7 @@ body .container .tab-width {
         width: 100%;
         text-decoration: none;
         padding: 0.45ex 0 0.45ex 0;
-        font-color: lightgray;
+        color: lightgray;
         font-size: 3ex;
         line-height: 1.5em; }
         body .container .tab-width ul li a:hover {
@@ -160,6 +162,52 @@ body .container .tab-width {
       border-left: .15ex solid black;
       border-right: .15ex solid black;
       border-bottom: .15ex solid white; }
+      body .container .tab-width ul .tabs-current a {
+        color: black; }
+
+@media screen and (max-width: 30em) {
+  .tab-width ul li {
+    margin-right: .25ex;
+    margin-left: .25ex;
+    width: 15%; }
+    .tab-width ul li a span {
+      display: none; }
+  section .mediabox {
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 1em; }
+    section .mediabox img {
+      display: inline-block;
+      width: 40%;
+      margin: auto;
+      vertical-align: middle; }
+      section .mediabox img h3 p {
+        display: inline-block;
+        width: 55%;
+        font-size: 2ex;
+        vertical-align: middle;
+        margin-left: 1em; } }
+
+@media screen and (max-width: 55em) {
+  .tab-width ul li a span {
+    font-size: 1em; }
+  section {
+    margin-left: .75%; }
+    section .mediabox {
+      display: inline-block;
+      width: 30%;
+      margin-left: 1.25%;
+      margin-right: 1.25%;
+      text-align: left; }
+      section .mediabox img {
+        display: block;
+        width: 100%; }
+        section .mediabox img h3 p {
+          display: inline-block;
+          width: 95%;
+          font-size: 2ex; } }
 
 /* ==========================================================================
    Helper classes
