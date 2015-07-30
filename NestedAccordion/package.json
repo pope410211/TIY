@@ -1,0 +1,23 @@
+{
+  "name": "nestedaccordion",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "browser-sync start --server --files='js/*.js,test/index.html,test/spec/**/*.js' --startPath src/test/index.html",
+    "start": "browser-sync start --server --files='index.html, css/*.css, js/*.js' --startPath src/index.html",
+    "bower:install": "bower install --save",
+    "postbower:install": "wiredep --src src/index.html",
+    "sass": "node-sass src/scss/main.scss -o src/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pope410211/TIY-Assignments/tree/master"
+  },
+  "author": "Nick Pope <pope410211@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.2.0",
+    "wiredep": "^2.2.2"
+  }
+}
