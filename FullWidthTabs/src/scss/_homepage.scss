@@ -1,6 +1,8 @@
 body {
     width: 100%;
     max-width: 100%;
+    color: black;
+
     .content-current {
         display: block;
     }
@@ -10,53 +12,8 @@ body {
         position: relative;
         clear: both;
         float: left;
-        .tab-width {
-            display: block;
-            text-align: center;
-            margin-top: 2em;
-            margin-bottom: 10em;
-            a:hover {
-                color: darkgray;
-            }
-            ul {
-                // position: absolute;
-                padding: 0;
-                margin: 0 auto;
-                li {
-                    float: left;
-                    list-style: none;
-                    display: inline-block;
-                    border-top: 1px solid lightgrey;
-                    border-right: 1px solid lightgrey;
-                    border-left: 1px solid lightgrey;
-                    width: 10%;
-                    cursor: pointer;
-                    margin-right: 0.5em;
-                    margin-left: 0.5em;
-                    padding: 1em;
-                    position: relative;
-                    a {
-                        text-decoration: none;
-                        color: lightgray;
-                        width: 100%;
-                    }
-                }
-                //end li
-            }
-            //end ul
-            .tabs-current {
-                a {
-                    color: black;
-                }
 
-                // .tabs-current::after,
-                // .tabs-current::before {
-                //
-                //   border-bottom: 1px solid black;
-                // }
-            }
-        }
-        //end tab width
+
         .content {
             margin-top: 2em;
 

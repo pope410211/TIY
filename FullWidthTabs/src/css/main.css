@@ -79,7 +79,8 @@ textarea {
    ========================================================================== */
 body {
   width: 100%;
-  max-width: 100%; }
+  max-width: 100%;
+  color: black; }
   body .content-current {
     display: block; }
   body .container {
@@ -88,35 +89,6 @@ body {
     position: relative;
     clear: both;
     float: left; }
-    body .container .tab-width {
-      display: block;
-      text-align: center;
-      margin-top: 2em;
-      margin-bottom: 10em; }
-      body .container .tab-width a:hover {
-        color: darkgray; }
-      body .container .tab-width ul {
-        padding: 0;
-        margin: 0 auto; }
-        body .container .tab-width ul li {
-          float: left;
-          list-style: none;
-          display: inline-block;
-          border-top: 1px solid lightgrey;
-          border-right: 1px solid lightgrey;
-          border-left: 1px solid lightgrey;
-          width: 10%;
-          cursor: pointer;
-          margin-right: 0.5em;
-          margin-left: 0.5em;
-          padding: 1em;
-          position: relative; }
-          body .container .tab-width ul li a {
-            text-decoration: none;
-            color: lightgray;
-            width: 100%; }
-      body .container .tab-width .tabs-current a {
-        color: black; }
     body .container .content {
       margin-top: 2em; }
       body .container .content .display-none {
