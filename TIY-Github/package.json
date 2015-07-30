@@ -69,7 +69,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nick Pope <pope410211@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pope410211/TIY-Assignments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pope410211/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/pope410211/TIY-Assignments#readme",
   "description": ""
 }
