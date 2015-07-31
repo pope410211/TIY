@@ -2,7 +2,11 @@
 
 
 
-$.getJSON('api/users/' +  + '/main/profile.json')
+
+
+
+
+$.getJSON('api/users/' + profile + '/main/profile.json')
 .then(function(user){
 console.log('success', user);
 
