@@ -1,12 +1,14 @@
 (function(){
 
 
+// var profile = $('#profile-change option:selected').text()
+// console.log('yay', profile);
+var chosen = $.on('#profile-change', 'select', function(){
+  $(this).addClass('selected').siblings().removeClass('selected')
+})
 
 
-
-
-
-$.getJSON('api/users/' + profile + '/main/profile.json')
+$.getJSON('api/users/' + 'pope410211' + '/main/profile.json')
 .then(function(user){
 console.log('success', user);
 
