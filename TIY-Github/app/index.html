@@ -25,7 +25,28 @@
     <!-- endbuild -->
   </head>
   <body>
-    <main class-"container-fluid">
+    <main class-"container-fluid mobile">
+      <nav class="mobile-tabs">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">About</a></li>
+        <li role="presentation"><a href="#">Repositories</a></li>
+      </ul>
+      </nav>
+      <!-- MOBILE -->
+      <div class="col-xs-4" id="mobile-pic">
+        <img src="{{user.profile}}"/>
+      </div>
+      <div class="col-xs-2 col-xs-offset-4">
+        <h3>{{user.username}}</h3><br><h6>{{user.name}}</h6><br><br>
+        <ul class="mobile-list">
+          <li class="octicon-organization:before">{{user.organization}}</li>
+          <li class="">{{user.location}}</li>
+          <li class=""><a href="mailto:{{user.mailto}}">{{user.email}}</a></li>
+          <li class=""><a href="{{user.blogurl}}">{{user.blog}}</a></li>
+        </ul>
+      </div>
+      
+
 
 
 
