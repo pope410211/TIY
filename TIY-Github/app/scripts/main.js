@@ -6,10 +6,14 @@
 // var chosen = $.on('#profile-change', 'select', function(){
 //   $(this).addClass('selected').siblings().removeClass('selected')
 // })
+
+
 var options = {};
 var profile = $('#profile-change option').each(function(){
   options[$(this).text()] = $(this).val();
 });
+
+// loop + if/else statement!
 
 console.log('yay', options, profile);
 
