@@ -1,14 +1,19 @@
 (function(){
 
-
-// var profile = $('#profile-change option:selected').text()
+//
+// var profile = $('#profile-change').find(':selected').text();
 // console.log('yay', profile);
-var chosen = $.on('#profile-change', 'select', function(){
-  $(this).addClass('selected').siblings().removeClass('selected')
-})
+// var chosen = $.on('#profile-change', 'select', function(){
+//   $(this).addClass('selected').siblings().removeClass('selected')
+// })
+var options = {};
+var profile = $('#profile-change option').each(function(){
+  options[$(this).text()] = $(this).val();
+});
 
+console.log('yay', options, profile);
 
-$.getJSON('api/users/' + 'pope410211' + '/main/profile.json')
+$.getJSON('api/users/' + profile + '/main/profile.json')
 .then(function(user){
 console.log('success', user);
 
