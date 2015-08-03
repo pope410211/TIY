@@ -23,6 +23,8 @@
 // };
 //
 
+// var option = $('#profile-change option:contains("octocat")').prop('selected', true).text();
+
 
 // The following code came from code.runnable.com/Ue9c4krQF7VjAAAP/how-to-get-selected-option-using-jquery
   /* we are assigning change event handler for select box */
@@ -31,8 +33,7 @@
 	{
 		/* setting currently changed option value to option variable */
 		var option = $(this).find('option:selected').text();
-		/* setting input box value to selected option value */
-		// $(profile).text(option);
+
     console.log(option);
 
 
@@ -76,7 +77,8 @@ $following.text(user.following);
 
 }); //end getJSON
 
-});// may need to delete
+});// end profile switch function
+
 
 
 
