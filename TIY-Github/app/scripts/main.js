@@ -8,7 +8,7 @@
 // })
 
 
-// var options = {};
+// var profile = [];
 // var profile = $('#profile-change option').each(function(){
 //   options[$(this).text()] = $(this).val();
 // });
@@ -21,23 +21,24 @@
 //   return 'pope410211';
 //   console.log(profile);
 // };
+//
 
-$(document).ready( function ()
-{
+
+// The following code came from code.runnable.com/Ue9c4krQF7VjAAAP/how-to-get-selected-option-using-jquery
   /* we are assigning change event handler for select box */
 	/* it will run when selectbox options are changed */
 	$('#profile-change').change(function()
 	{
 		/* setting currently changed option value to option variable */
-		var option = $(this).find('option:selected').val();
+		var option = $(this).find('option:selected').text();
 		/* setting input box value to selected option value */
-		$('#showoption').val(option);
-  });
-});
+		// $(profile).text(option);
+    console.log(option);
 
-console.log('yay', options, profile);
 
-$.getJSON('api/users/' + profile + '/main/profile.json')
+// console.log('yay', options, profile);
+
+$.getJSON('api/users/' + option + '/main/profile.json')
 .then(function(user){
 console.log('success', user);
 
@@ -74,6 +75,8 @@ $following = $('#following');
 $following.text(user.following);
 
 }); //end getJSON
+
+});// may need to delete
 
 
 
