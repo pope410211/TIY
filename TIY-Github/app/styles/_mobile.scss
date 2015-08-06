@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   main {
 
     nav{
@@ -12,7 +14,6 @@ body {
             padding: 0;
             margin: 0;
             width: 100%;
-            border-bottom: .15ex solid black;
 
 
               li {
@@ -24,6 +25,7 @@ body {
                 border-top: .15ex solid lightgray;
                 border-left: .15ex solid lightgray;
                 border-right: .15ex solid lightgray;
+                border-bottom: .15ex solid lightgray;
                 line-height: 2em;
                 cursor: pointer;
 
@@ -36,14 +38,25 @@ body {
                   font-size: 3ex;
                   line-height: 1.5em;
 
-                
+
                 }
               }
+              .active{
+                border-top: .4ex solid red;
+                border-left: .15ex solid lightgray;
+                border-right: none;
+                border-bottom: none;
+
+                a{
+                color: black;
             }
+          }
+        }
     }//end nav
+
     #mobile-pic {
       #avatar {
-        height: 12em;
+        height: 13em;
         width: 10em;
         margin-top: 1em;
       }
@@ -52,6 +65,26 @@ body {
     //mobile-pic
     .mobile-list{
       list-style: none;
+    }
+
+    #mobile-profinfo{
+      width: 100%;
+      background-color: #F9F9F9;
+
+      button{
+        background-color: #66BF47;
+        color: white;
+        border: none;
+        width: 80%;
+        margin: 0 auto;
+        }
+  ul{
+    float: left;
+    li{
+      list-style: none;
+        float: left;
+    }
+  }
     }
   }
   //end main
